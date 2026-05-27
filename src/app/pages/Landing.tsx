@@ -5,6 +5,7 @@ import { Features } from "../components/Features";
 import { Copilot } from "../components/Copilot";
 import { Pricing } from "../components/Pricing";
 import { CTA } from "../components/CTA";
+import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 
 export default function Landing() {
@@ -19,6 +20,7 @@ export default function Landing() {
         <Copilot />
         <Pricing />
         <CTA />
+        <Contact />
         <Footer />
       </div>
     </div>
