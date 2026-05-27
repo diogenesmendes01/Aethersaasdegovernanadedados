@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Growth",
-    price: "R$ 4.900",
+    price: "R$ 719,00",
     desc: "Para empresas em conformidade inicial",
     features: ["Até 500GB de dados", "Classificação automática", "5 usuários", "Suporte email"],
   },
