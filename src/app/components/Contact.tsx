@@ -9,7 +9,7 @@ function WhatsAppIcon({ className }: { className?: string }) {
 }
 
 const cardBase =
-  "group rounded-2xl border border-white/10 bg-white/5 p-6 flex flex-col transition-all hover:bg-white/[0.08] hover:border-[#22D3EE]/30";
+  "group rounded-2xl border border-white/10 bg-white/5 p-6 flex flex-col items-center text-center transition-all hover:bg-white/[0.08] hover:border-[#22D3EE]/30";
 const iconBox =
   "w-11 h-11 rounded-xl bg-gradient-to-br from-[#22D3EE]/20 to-[#6366F1]/20 border border-white/10 flex items-center justify-center mb-4";
 const hint =
@@ -38,8 +38,8 @@ export function Contact() {
 
         <div className="grid sm:grid-cols-2 gap-5 max-w-2xl mx-auto">
           <a href="https://wa.me/5519994399748" target="_blank" rel="noopener noreferrer" className={cardBase}>
-            <div className={iconBox}>
-              <WhatsAppIcon className="w-5 h-5 text-[#67E8F9]" />
+            <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#25D366] to-[#12A150] flex items-center justify-center mb-4 shadow-[0_0_18px_rgba(37,211,102,0.35)]">
+              <WhatsAppIcon className="w-6 h-6 text-white" />
             </div>
             <span className="text-xs uppercase tracking-widest text-slate-400 mb-1">WhatsApp</span>
             <span className="text-white" style={{ fontWeight: 500 }}>+55 19 99439-9748</span>
