@@ -1,7 +1,8 @@
 import { NavLink, Outlet, Navigate, useNavigate } from "react-router";
 import { useState } from "react";
-import { Sparkles, LayoutDashboard, Search, Brain, Database, ShieldCheck, AlertTriangle, FileText, Settings as SettingsIcon, Compass, LogOut, User } from "lucide-react";
+import { LayoutDashboard, Search, Brain, Database, ShieldCheck, AlertTriangle, FileText, Settings as SettingsIcon, Compass, LogOut, User } from "lucide-react";
 import { useAuth } from "../auth";
+import { Logo } from "./Logo";
 import { CopilotFab } from "./CopilotFab";
 import { NotificationBell } from "./NotificationBell";
 
@@ -32,9 +33,7 @@ export default function AppLayout() {
       <aside className="w-60 border-r border-white/5 bg-[#0F172A]/60 backdrop-blur-xl flex flex-col flex-shrink-0">
         <div className="px-5 py-5 border-b border-white/5">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#22D3EE] to-[#6366F1] flex items-center justify-center shadow-[0_0_20px_rgba(34,211,238,0.5)]">
-              <Sparkles className="w-4 h-4 text-[#0F172A]" strokeWidth={2.5} />
-            </div>
+            <Logo size={32} />
             <span className="text-lg" style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600 }}>Aether</span>
           </div>
         </div>

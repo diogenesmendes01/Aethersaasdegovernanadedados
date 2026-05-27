@@ -1,6 +1,6 @@
-import { Sparkles } from "lucide-react";
 import { Link } from "react-router";
 import { ReactNode } from "react";
+import { Logo } from "./Logo";
 
 export function AuthShell({ title, subtitle, children, footer }: { title: string; subtitle: string; children: ReactNode; footer?: ReactNode }) {
   return (
@@ -10,9 +10,7 @@ export function AuthShell({ title, subtitle, children, footer }: { title: string
         <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#6366F1]/20 rounded-full blur-[120px]" />
         <div className="relative flex flex-col justify-between w-full">
           <Link to="/" className="flex items-center gap-2 w-fit">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#22D3EE] to-[#6366F1] flex items-center justify-center shadow-[0_0_20px_rgba(34,211,238,0.5)]">
-              <Sparkles className="w-4 h-4 text-[#0F172A]" strokeWidth={2.5} />
-            </div>
+            <Logo size={36} />
             <span className="text-xl" style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600 }}>Aether</span>
           </Link>
 
@@ -40,9 +38,7 @@ export function AuthShell({ title, subtitle, children, footer }: { title: string
       <div className="flex-1 flex items-center justify-center p-6 md:p-12 relative">
         <div className="lg:hidden absolute top-6 left-6">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#22D3EE] to-[#6366F1] flex items-center justify-center">
-              <Sparkles className="w-4 h-4 text-[#0F172A]" strokeWidth={2.5} />
-            </div>
+            <Logo size={32} />
             <span className="text-lg" style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600 }}>Aether</span>
           </Link>
         </div>
