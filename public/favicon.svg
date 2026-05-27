@@ -4,15 +4,11 @@
       <stop offset="0" stop-color="#0F172A"/>
       <stop offset="1" stop-color="#1E293B"/>
     </linearGradient>
-    <linearGradient id="a" x1="50" y1="0" x2="50" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1B3B"/>
-      <stop offset="0.55" stop-color="#1E63D6"/>
-      <stop offset="1" stop-color="#2BE2F2"/>
+    <linearGradient id="a" x1="50" y1="12" x2="50" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A5F3FC"/>
     </linearGradient>
   </defs>
   <rect x="2" y="2" width="96" height="96" rx="22" fill="url(#bg)"/>
-  <g transform="translate(18 18) scale(0.64)">
-    <path d="M50 7 L92 93 L70 93 L50 39 L30 93 L8 93 Z" fill="url(#a)" stroke="url(#a)" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
-    <ellipse cx="50" cy="52" rx="46" ry="16" fill="none" stroke="#67E8F9" stroke-width="3" opacity="0.85" transform="rotate(-24 50 52)"/>
-  </g>
+  <path d="M50 12 L94 88 L66 88 L50 50 L34 88 L6 88 Z" transform="translate(18 18) scale(0.64)" fill="url(#a)" stroke="url(#a)" stroke-width="4" stroke-linejoin="round"/>
 </svg>
