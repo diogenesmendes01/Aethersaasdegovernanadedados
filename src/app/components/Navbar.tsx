@@ -1,5 +1,5 @@
-import { Sparkles } from "lucide-react";
 import { Link } from "react-router";
+import { Logo } from "./Logo";
 
 export function Navbar() {
   const links = ["Plataforma", "Funcionalidades", "LGPD", "IA Copilot", "Preços"];
@@ -7,9 +7,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#0F172A]/70 border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#22D3EE] to-[#6366F1] flex items-center justify-center shadow-[0_0_20px_rgba(34,211,238,0.5)]">
-            <Sparkles className="w-4 h-4 text-[#0F172A]" strokeWidth={2.5} />
-          </div>
+          <Logo size={32} />
           <span className="text-xl tracking-tight text-white" style={{ fontWeight: 600 }}>Aether</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
